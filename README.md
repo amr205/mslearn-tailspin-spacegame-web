@@ -1,4 +1,4 @@
-[![YourActionName Actions Status](https://github.com/amr205/mslearn-tailspin-spacegame-web/workflows/dotnet.yml/badge.svg)](https://github.com/amr205/mslearn-tailspin-spacegame-web/actions)
+[![YourActionName Actions Status](https://github.com/amr205/mslearn-tailspin-spacegame-web/.github/workflows/dotnet.yml/badge.svg)](https://github.com/amr205/mslearn-tailspin-spacegame-web/actions)
 
 # Contributing
 
