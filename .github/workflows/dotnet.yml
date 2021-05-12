@@ -41,6 +41,21 @@ jobs:
       
     - name: Build
       run: dotnet build --no-restore
+    
+    - name: Publish
+      run: dotnet publish --no-build --configuration release 
       
+    - uses: papeloto/action-zip@v1
+      with:
+        files: Tailspin.SpaceGame.Web/bin/Release/netcoreapp3.1/publish/
+        recursive: true
+        dest: result.zip
+        
+    - name: Upload WebApp1 Build Artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: WebApp1
+        path: ${{ github.workspace }}/result.zip
+        
     - name: Test
       run: dotnet test --no-build --verbosity normal
