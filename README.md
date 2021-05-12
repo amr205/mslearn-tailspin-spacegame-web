@@ -1,4 +1,4 @@
-![Workflow status](https://github.com/github/docs/actions/workflows/dotnet.yml/badge.svg)
+[![YourActionName Actions Status](https://github.com/amr205/mslearn-tailspin-spacegame-web/workflows/dotnet.yml/badge.svg)](https://github.com/{userName}/{repoName}/actions)
 
 # Contributing
 
