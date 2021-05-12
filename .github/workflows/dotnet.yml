@@ -30,8 +30,8 @@ jobs:
     - name: Compile CSS from SCSS files
       uses: gha-utilities/sass-build@v0.3.9
       with:
-        source: Tailspin.SpaceGame.Web/wwwroot/css
-        destination: Tailspin.SpaceGame.Web/wwwroot/css
+        source: Tailspin.SpaceGame.Web/wwwroot/css/site.scss
+        destination: Tailspin.SpaceGame.Web/wwwroot/css/site.css
     
     - name: Run gulp tasks
       uses: elstudio/actions-js-build/build@v4
